@@ -1,0 +1,62 @@
+
+/*html {
+  background-image: linear-gradient(to right, red,violet, gold, green);
+}*/
+
+body {
+  background-color: #40799f;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.img__logo {
+  width: 35rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+a {
+  color: #1b1d1b;
+}
+
+.section--avengers {
+  width: 25%;
+}
+
+.avenger {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.img__avenger {
+  width: 100%;
+  height: 90%;
+  margin: 0rem;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.footer--avengers {
+  text-align: center;
+}
+.classmates {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.classmate {
+  font-size: 2rem;
+}
