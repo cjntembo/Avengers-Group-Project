@@ -1,0 +1,37 @@
+
+body {
+    background-color: #155d0b;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .imgLogo {
+    width: 35rem;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+  }
+
+  .hulkImages {
+    height: 12rem;
+  }
+
+  .hulkInfo{
+    display: flex;
+    justify-content: space-evenly;
+    border: dotted;
+  }
+
+  .hulkProfile {
+    margin: 20px;
+    text-align: center;
+    border: dotted;
+  }
