@@ -21,17 +21,26 @@ body {
   }
 
   .hulkImages {
-    height: 12rem;
+    height: 20rem;
+  }
+
+  .hulkProfileImage {
+    height: 20rem;
   }
 
   .hulkInfo{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     border: dotted;
+    margin: 20px;
   }
 
   .hulkProfile {
     margin: 20px;
-    text-align: center;
-    border: dotted;
+    text-align: left;
+    /*border: dotted;*/
+  }
+
+  .hulkComicImages {
+    height: 30rem;
   }
