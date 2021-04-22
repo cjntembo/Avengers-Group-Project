@@ -1,0 +1,110 @@
+body {
+  background-image: linear-gradient(to bottom right, #9ac9d6, #8ed2df, #3f6d85, #214f69,#049fcc, #0c2029);
+}
+
+.thor__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.title__thor {
+  display: flex;
+  justify-content: center;
+  font-size: 8rem;
+  animation-name: animate__title;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+.subtitle__thor {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 4rem;
+  animation-name: animate__title;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animate__title {
+  from {color: rgb(35, 13, 75);}
+  to {color: rgb(109, 67, 163);}
+  to {color:  rgb(4, 0, 255);}
+  to {color: rgb(172, 43, 129);}
+}
+
+.main__thor {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+}
+
+.img__thor {
+  width: 50%;
+  border-radius: 25px;
+}
+
+.thor__info {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  justify-content: space-around;
+}
+
+.alias{
+  font-size: 30px;
+}
+
+.origination{
+  font-size: 30px;
+}
+.birth{
+  font-size: 30px;
+}
+.death{
+  font-size: 30px;
+}
+.status{
+  font-size: 30px;
+}
+.power{
+  font-size: 30px;
+}
+.weakness{
+  font-size: 30px;
+}
+.archenemy{
+  font-size: 30px;
+}
+.comic{
+  font-size: 30px;
+}
+.social__media{
+  font-size: 30px;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: purple;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+.owner {
+  text-align: center;
+  font-family: cursive;
+  font-size: 3rem;
+}
