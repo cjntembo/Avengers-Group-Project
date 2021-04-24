@@ -84,3 +84,8 @@ body {
   .socialMedia {
     width: 50px; height: 50px;
   }
+
+  img.abominationPic {
+    height: 28rem;
+    box-shadow: 10px 10px black;
+  }
