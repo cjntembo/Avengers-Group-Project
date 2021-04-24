@@ -1,6 +1,13 @@
 
 body {
-    background-color: #155d0b;
+    /*background-color: #155d0b;*/
+   /* background: url(./../images/hulk_images/hulkBackground.jpg);*/
+    background: linear-gradient(to right, #0b0b0bd9, #070607cc), url(./../images/hulk_images/hulkBackground.jpg) no-repeat top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    
   }
   
   .header {
@@ -10,37 +17,66 @@ body {
   }
   
   .imgLogo {
-    width: 35rem;
+    width: 45rem;
   }
   
   .main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
+    
   }
 
   .hulkImages {
     height: 20rem;
+    box-shadow: 10px 10px black;
   }
 
   .hulkProfileImage {
-    height: 20rem;
+    height: 33rem;
   }
 
   .hulkInfo{
     display: flex;
     justify-content: center;
-    border: dotted;
-    margin: 20px;
+    /*border: dotted;*/
+    border-radius: 10px;
+    margin: 25px;
+    /*background-color: #0e4e1059;*/
   }
 
-  .hulkProfile {
+  .hulkProfile.content {
     margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
     text-align: left;
     /*border: dotted;*/
+    background-color: #565e0a8f;
+    
+  }
+
+  .bannerProfile {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    /*border: dotted;*/
+    background-color: #565e0a8f;
+  
   }
 
   .hulkComicImages {
     height: 30rem;
+    box-shadow: 10px 10px black;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: #565e0a8f;
+  }
+  .avenger a {
+    color: white;
   }
